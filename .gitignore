@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Conda
+.env
+.venv
+venv/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+
+# Processed data (keep raw data if your dataset is small)
+data/processed/
+
+# Model files
+models/*.pkl
+models/*.joblib
+
+# Logs
+*.log
